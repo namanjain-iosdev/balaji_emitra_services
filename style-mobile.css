@@ -2,7 +2,7 @@
 
     header {
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
         align-items: center;
         height: 80px;
     }
@@ -11,10 +11,7 @@
 
     }
 
-    .icon {
-        display: block;
-        margin-right: 40px;
-    }
+    
 
     .icon a{
         width: 40px;
@@ -54,6 +51,7 @@
     }
     
     .btns{
+        font-size: 0.6rem;
         padding: 10px 0px;
         display: flex;
         justify-content: start;
@@ -101,7 +99,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin: 0px 40px;
+        margin: 0px 30px;
         padding: 40px 0px;
     }
     
