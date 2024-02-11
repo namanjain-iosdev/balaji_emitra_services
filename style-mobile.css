@@ -1,0 +1,251 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 80px;
+    }
+    
+    .logo {
+
+    }
+
+    .icon {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .icon a{
+        width: 40px;
+        height: 40px;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav li {
+        margin-right: 25px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    
+    nav a:hover {
+        color: #ffcc00; /* Change the color on hover */
+    }
+    
+    
+    .access-btns{
+        display: none;
+    }
+    
+    .btns{
+        padding: 10px 0px;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .access-btn-fill{
+        display: block;
+        background-color: #FF5C35;
+        color: #FFFFFF;
+        margin: 0px 10px 0px 0px;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: 1px solid #FF5C35;
+    }
+    
+    .access-btn-fill:hover{
+        background-color: #FFFFFF;
+        color: #FF5C35;
+    }
+    
+    .access-btn-empty{
+        display: block;
+        margin: 0px 10px;
+        background-color: #FFFFFF;
+        color: #FF5C35;
+        padding: 10px 20px;
+        text-decoration: none;
+        border: 1px solid #FF5C35;
+        border-radius: 10px;
+    }
+    .access-btn-empty:hover {
+        background-color: #FF5C35;
+        color: #FFFFFF;
+    }
+    
+    
+    main {
+        width: 100%;
+    }
+    
+    
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 40px;
+        padding: 40px 0px;
+    }
+    
+    .left{
+        width: 100%;
+    }
+    
+    
+    .right{
+        width: 100%;
+    }
+    
+    .tagline{
+        width: 100%;
+        font: 2rem lato, sans-serif;
+    }
+    
+    .tagline-desc{
+        font: 1rem lato;
+        word-spacing: 0.3rem;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+    
+    
+    #home{
+        background-color: #FEF4EA;
+    }
+    
+    .analytics-img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    
+    #location{
+        background-color: #f6f9fc;
+    }
+    
+    .location-h2{
+        text-align: center;
+    }
+    
+    .map{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .map-frame {
+        width: 100%;
+    }
+    
+    .map-frame iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .horizontal-line {
+        width: 70px;
+        height: 2px;
+        background-color: #FF5C35;
+        margin: auto auto;
+    }
+    
+    
+    .teal-blue{
+        background-color: #b7ecec;
+    }
+
+
+    #services {
+        background-color: #b7ecec;
+    }
+
+    .services-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .services-list ul {
+        padding: 0px;
+        list-style: none;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .services-list li {
+        color: #192733;
+        background-color: white;
+        margin: 5px;
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services-h2 {
+        text-align: center;
+    }
+    
+    footer{
+        background-color: #192733;
+        color: #FFFFFF;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .address h1 {
+        margin-top: 20px;
+        font-size: 3rem;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    .address{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    
+    .address h3{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .address h5{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    
+    .social_accounts{
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+}
